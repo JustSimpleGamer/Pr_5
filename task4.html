@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 4</title>
+</head>
+<body>
+
+<script type="text/javascript" language="JavaScript">
+    document.bgColor='whitesmoke';
+
+    var x = prompt('Введіть значення x', 'x');
+
+    x = parseInt(x);
+
+    if(x < 2)
+    {
+        document.write('U = ' + Math.sin(x) + Math.tan(x));
+    }
+
+    if(x == 2)
+    {
+        document.write('U = ' + Math.pow(x,2) + 5 * Math.pow(x,3));
+    }
+
+    if(x > 2)
+    {
+       // document.write('E');
+        document.write('U = ' + Math.sqrt(Math.pow(x,3)));
+    }
+
+</script>
+
+</body>
+</html>
